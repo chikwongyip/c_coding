@@ -9,9 +9,10 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    char ch;
-    printf("Please enter a charater.\n");
-    scanf("%c",&ch);
-    printf("The code for %c is %d.\n",ch,ch);
+//    char ch;
+//    printf("Please enter a charater.\n");
+//    scanf("%c",&ch);
+//    printf("The code for %c is %d.\n",ch,ch);
+    altnames();
     return 0;
 }

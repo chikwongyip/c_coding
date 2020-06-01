@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC61E3B4248540C5001AE838 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EC61E3B3248540C5001AE838 /* main.c */; };
+		EC61E3BE2485451B001AE838 /* altnames.c in Sources */ = {isa = PBXBuildFile; fileRef = EC61E3BD2485451B001AE838 /* altnames.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		EC61E3B0248540C5001AE838 /* coding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = coding; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC61E3B3248540C5001AE838 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EC61E3BD2485451B001AE838 /* altnames.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = altnames.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		EC61E3A7248540C5001AE838 = {
 			isa = PBXGroup;
 			children = (
+				EC61E3BF2485456E001AE838 /* 3.6 */,
 				EC61E3B2248540C5001AE838 /* coding */,
 				EC61E3B1248540C5001AE838 /* Products */,
 			);
@@ -60,6 +63,14 @@
 				EC61E3B3248540C5001AE838 /* main.c */,
 			);
 			path = coding;
+			sourceTree = "<group>";
+		};
+		EC61E3BF2485456E001AE838 /* 3.6 */ = {
+			isa = PBXGroup;
+			children = (
+				EC61E3BD2485451B001AE838 /* altnames.c */,
+			);
+			path = 3.6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC61E3BE2485451B001AE838 /* altnames.c in Sources */,
 				EC61E3B4248540C5001AE838 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
