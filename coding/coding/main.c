@@ -13,6 +13,7 @@ int main(int argc, const char * argv[]) {
 //    printf("Please enter a charater.\n");
 //    scanf("%c",&ch);
 //    printf("The code for %c is %d.\n",ch,ch);
-    altnames();
+//    altnames();
+    showf();
     return 0;
 }
