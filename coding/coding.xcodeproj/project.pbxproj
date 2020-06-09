@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC3133FF248FC6D500A709D2 /* talkback.c in Sources */ = {isa = PBXBuildFile; fileRef = EC3133FE248FC6D500A709D2 /* talkback.c */; };
 		EC61E3B4248540C5001AE838 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EC61E3B3248540C5001AE838 /* main.c */; };
 		EC61E3BE2485451B001AE838 /* altnames.c in Sources */ = {isa = PBXBuildFile; fileRef = EC61E3BD2485451B001AE838 /* altnames.c */; };
 		ECDB0BE1248D22FF00AC10DA /* showf_pt.c in Sources */ = {isa = PBXBuildFile; fileRef = ECDB0BE0248D22FF00AC10DA /* showf_pt.c */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EC3133FE248FC6D500A709D2 /* talkback.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = talkback.c; path = talkback/talkback.c; sourceTree = SOURCE_ROOT; };
 		EC61E3B0248540C5001AE838 /* coding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = coding; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC61E3B3248540C5001AE838 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EC61E3BD2485451B001AE838 /* altnames.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = altnames.c; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				ECDB0BE0248D22FF00AC10DA /* showf_pt.c */,
+				EC3133FE248FC6D500A709D2 /* talkback.c */,
 			);
 			path = "3.7 showf_pt.c";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3133FF248FC6D500A709D2 /* talkback.c in Sources */,
 				EC61E3BE2485451B001AE838 /* altnames.c in Sources */,
 				ECDB0BE1248D22FF00AC10DA /* showf_pt.c in Sources */,
 				EC61E3B4248540C5001AE838 /* main.c in Sources */,
