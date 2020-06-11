@@ -11,6 +11,7 @@
 		EC61E3B4248540C5001AE838 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EC61E3B3248540C5001AE838 /* main.c */; };
 		EC61E3BE2485451B001AE838 /* altnames.c in Sources */ = {isa = PBXBuildFile; fileRef = EC61E3BD2485451B001AE838 /* altnames.c */; };
 		ECDB0BE1248D22FF00AC10DA /* showf_pt.c in Sources */ = {isa = PBXBuildFile; fileRef = ECDB0BE0248D22FF00AC10DA /* showf_pt.c */; };
+		ECF6DF9E24926D620071FB28 /* 3.10.c in Sources */ = {isa = PBXBuildFile; fileRef = ECF6DF9D24926D620071FB28 /* 3.10.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		EC61E3B3248540C5001AE838 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		EC61E3BD2485451B001AE838 /* altnames.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = altnames.c; sourceTree = "<group>"; };
 		ECDB0BE0248D22FF00AC10DA /* showf_pt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = showf_pt.c; sourceTree = "<group>"; };
+		ECF6DF9D24926D620071FB28 /* 3.10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 3.10.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		EC61E3A7248540C5001AE838 = {
 			isa = PBXGroup;
 			children = (
+				ECF6DF9C24926D220071FB28 /* 3.10练习 */,
 				ECDB0BDF248D22A800AC10DA /* 3.7 showf_pt.c */,
 				EC61E3BF2485456E001AE838 /* 3.6 */,
 				EC61E3B2248540C5001AE838 /* coding */,
@@ -85,6 +88,14 @@
 				EC3133FE248FC6D500A709D2 /* talkback.c */,
 			);
 			path = "3.7 showf_pt.c";
+			sourceTree = "<group>";
+		};
+		ECF6DF9C24926D220071FB28 /* 3.10练习 */ = {
+			isa = PBXGroup;
+			children = (
+				ECF6DF9D24926D620071FB28 /* 3.10.c */,
+			);
+			path = "3.10练习";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF6DF9E24926D620071FB28 /* 3.10.c in Sources */,
 				EC3133FF248FC6D500A709D2 /* talkback.c in Sources */,
 				EC61E3BE2485451B001AE838 /* altnames.c in Sources */,
 				ECDB0BE1248D22FF00AC10DA /* showf_pt.c in Sources */,
